@@ -1,0 +1,617 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* overflow-y: hidden; */
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-session {
+  background-color: #b68540;
+  width: 100%;
+  height: 100%;
+}
+.nav-top h3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header {
+  background-color: #fff;
+  box-shadow: 0 0 4px 4px #0000001a;
+}
+
+header {
+  /* height: 70px; */
+  display: flex;
+  align-items: center;
+
+  background-color: #fafafa;
+}
+
+header a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 600;
+  padding: 3px 15px;
+}
+
+header a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+header button {
+  cursor: pointer;
+}
+
+header .home-logo {
+  height: 3.5rem;
+  width: 9.5rem;
+  margin-right: auto;
+  margin-left: 4rem;
+}
+header .home-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+nav {
+  display: flex;
+}
+footer {
+  background-color: #2f4a26;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3rem;
+  color: #ffffff;
+  padding-top: 1.5rem;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.footer-one {
+  margin-right: auto;
+  margin-left: 4rem;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 3px 15px;
+}
+.footer-line {
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  margin-left: 4rem;
+}
+.line {
+  display: flex;
+  width: 25rem;
+  height: 1rem;
+  color: #fff;
+}
+.footer-second {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.footer-text {
+  margin-right: auto;
+  margin-left: 4rem;
+}
+.star-design {
+  position: relative;
+  top: -6.8rem;
+  left: 25.5rem;
+}
+.design01 {
+  position: relative;
+  top: -15rem;
+  left: 32rem;
+}
+.map {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 35rem;
+  width: 50rem;
+}
+.map img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* .homepageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+} */
+.image-area {
+  display: flex;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+.area2 {
+  padding-top: 2rem;
+}
+.why-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 4rem;
+}
+.how-area {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.area-how {
+  padding: 5rem 1rem;
+}
+.how-area p {
+  font-family: Inter;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #b68540;
+}
+.how-area h2 {
+  font-family: Yeseva One;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #000000;
+}
+.how-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.flex-how {
+  width: 22rem;
+  justify-content: center;
+  align-items: center;
+}
+.why-flex {
+  padding-left: 6rem;
+}
+.pics-01 {
+  width: 30rem;
+}
+.pics-01 img {
+  width: 100%;
+  object-fit: contain;
+}
+.donation-area {
+  background-color: #f3f3f3;
+  padding-bottom: 3rem;
+}
+.donation-flex {
+  display: flex;
+  gap: 2rem;
+  padding-left: 4rem;
+}
+.services-area {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f4e8;
+  padding-top: 3rem;
+}
+.donation-text {
+  padding-top: 3rem;
+  padding-left: 4rem;
+  padding-bottom: 2.5rem;
+}
+.flex-donation {
+  width: 18.5rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-donation img {
+  width: 100%;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.little {
+  width: 2rem;
+}
+.little img {
+  width: 100%;
+}
+.little2 {
+  width: 5rem;
+}
+.little2 img {
+  width: 100%;
+}
+.little3 {
+  width: 3.5rem;
+}
+.little3 img {
+  width: 100%;
+}
+.numm {
+  padding: 1.2rem;
+}
+.donation-jj {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+.donation-jj img {
+  height: 100%;
+  object-fit: contain;
+}
+.donation-btn {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 16rem;
+  cursor: pointer;
+  background-color: #2f4a26;
+  /* margin: 1rem; */
+  border-radius: 10px;
+}
+.imagess {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 2rem;
+}
+.image-11 {
+  display: block;
+}
+.image-12 {
+  display: block;
+}
+.image-1 {
+  width: 40rem;
+}
+.image-1 img {
+  width: 100%;
+}
+.last-area {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 12rem;
+}
+.last-area h3 {
+  font-family: Yeseva One;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: #626262;
+}
+.donate-btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  /* width: 10rem; */
+}
+.our-top {
+  /* background-image: url(/images/Rectangle1.png);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.button--donate {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: relative;
+  top: -11rem;
+  left: 6rem;
+  cursor: pointer;
+  width: 10rem;
+}
+.button--donate img {
+  width: 100%;
+}
+.imagess2 {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+}
+.contactt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 2.5rem 7rem;
+}
+.contact-text {
+  padding-right: 3rem;
+}
+.contact-text h2 {
+  font-family: Yeseva One;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #2d2d2d;
+  /* line-height: 3.5rem; */
+}
+.contact-text p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #626262;
+  /* line-height: 24px; */
+  /* letter-spacing: 0em;
+text-align: left; */
+}
+.contact-detail {
+  background-color: #f1f8ef;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.contact-detail h3 {
+  font-family: Yeseva One;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+}
+.contact-detail p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #626262;
+}
+.contact-donate {
+  background-color: #f9f4e8;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.contact-donate h3 {
+  font-family: Yeseva One;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+}
+.contact-donate p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #626262;
+}
+.contact-formarea {
+  background-color: #f9f9f9;
+  padding: 1rem 5rem;
+  padding-top: 3rem;
+  border-radius: 12px;
+}
+.contact-formarea p {
+  font-family: Yeseva One;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #626262;
+}
+.contact-formarea h3 {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+}
+.form--input {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #c5c5c5;
+  text-indent: 5px;
+  /* font-family: Manrope; */
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+  color: #303030;
+}
+.form--input2 {
+  width: 25rem;
+  height: 6.5rem;
+  border-radius: 16px;
+  background: none;
+  border: 1px solid #c5c5c5;
+  text-indent: 5px;
+  /* font-family: Manrope; */
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+  color: #303030;
+}
+.contact-send {
+  cursor: pointer;
+  width: 25rem;
+  background-color: transparent;
+  background-color: #2f4a26;
+  color: #ffffff;
+  border-radius: 13px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  outline: none;
+  border: none;
+  margin-top: 1.5rem;
+}
+.form--input:focus {
+  outline: none;
+  border: 1px solid #c5c5c5;
+}
+.form--input2:focus {
+  outline: none;
+  border: 1px solid #c5c5c5;
+}
+.form-grid1 {
+  display: flex;
+  gap: 1rem;
+}
+.form-donate {
+  width: 130%;
+
+  height: calc(100vh - 2rem);
+  opacity: 1;
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+  /* top: 245rem; */
+  background-color: #fff;
+  /* backdrop-filter: blur(3px); */
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 17rem;
+}
+
+.form-pics {
+  height: 35rem;
+}
+.form-pics img {
+  height: 100%;
+  object-fit: contain;
+}
+.pay-form2 {
+  display: flex;
+  gap: 2rem;
+  /* width: 100%; */
+  width: 65%;
+  background: #f9f9f9;
+  /* padding: 3rem 2rem; */
+}
+.form--input12 {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #c5c5c5;
+  text-indent: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #303030;
+}
+.pay-area {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.pay-pal {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 25rem;
+  margin-top: 1rem;
+}
+.pay-pal img {
+  width: 100%;
+  object-fit: contain;
+}
+.pay-form {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 24rem;
+  background-color: #b68540;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.donate-form h2 {
+  font-family: Yeseva One;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #2f4a26;
+}
+.donate-form h3 {
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #626262;
+}
+.form-grid1 h3 {
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #626262;
+}
+.form--input3 {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #c5c5c5;
+  text-indent: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #d0d0d0;
+
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.close-line {
+  display: flex;
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.close-line img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
