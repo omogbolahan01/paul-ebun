@@ -15,7 +15,6 @@ function Form() {
 
   return (
     <div>
-      (
       <div className="form-donate">
         <div className="pay-form2">
           <div className="form-pics">
@@ -91,7 +90,6 @@ function Form() {
           </button>
         </div>
       </div>
-      )
     </div>
   );
 }

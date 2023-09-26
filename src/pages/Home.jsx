@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="homepageContainer">
-      <div>
+      <div className="home-first">
         <img src="/images/Frame 85.png" />
       </div>
       <div className="area-how">
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className="how-flex">
           <div className="flex-how">
-            <img src="/images/image 25.png" alt="" />
+            <img src="/images/image 25.png" className="image-flex" />
             <h2>Become a volunteer</h2>
             <p>
               Join Edu-Kids Foundation as a volunteer and help make a difference
@@ -30,7 +30,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex-how">
-            <img src="/images/image 27.png" alt="" />
+            <img src="/images/image 27.png" className="image-flex" />
             <h2>Call for Donation</h2>
             <p>
               Make a difference in the lives of orphaned and vulnerable children
@@ -38,7 +38,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex-how">
-            <img src="/images/image 26.png" alt="" />
+            <img src="/images/image 26.png" className="image-flex" />
             <h2>Support</h2>
             <p>
               Support Edu-Kids Foundation and help orphaned and vulnerable
@@ -52,7 +52,7 @@ export default function Home() {
           <img src="/images/Frame 111 (1).png" className="pics-01" />
         </div>
         <div>
-          <img src="/images/Group 9.png" />
+          <img src="/images/Group 9.png" className="pics-02" />
         </div>
       </div>
       <div className="donation-area">
