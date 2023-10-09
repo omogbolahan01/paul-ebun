@@ -165,6 +165,13 @@ footer a {
   align-items: center;
   margin-left: 4rem;
 } */
+.home-first {
+  max-width: 100%;
+  height: auto;
+}
+.home-first img {
+  max-width: 100%;
+}
 .image-area {
   display: flex;
   gap: 2rem;
@@ -365,7 +372,7 @@ footer a {
   display: grid;
   /* gap: 1rem; */
   grid-template-columns: 1fr 1fr;
-  padding: 1rem 2rem;
+  padding: 4rem 2rem;
 }
 .image-11 {
   display: block;
@@ -1003,5 +1010,336 @@ footer a {
     outline: none;
     left: 16rem;
     position: absolute;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .home-first {
+    width: 500rem;
+  }
+  .home-first img {
+    width: 100%;
+  }
+  .flex-how {
+    width: 70rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-how h2 {
+    font-size: 2.5rem;
+  }
+  .flex-how p {
+    font-size: 1.5rem;
+  }
+  .image-flex {
+    width: 8rem;
+    height: 4rem;
+  }
+  .image-flex img {
+    width: 100%;
+    height: 100%;
+  }
+  .how-area p {
+    font-size: 2.5rem;
+  }
+  .how-area h2 {
+    font-size: 4rem;
+  }
+  .why-flex {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    gap: 4rem;
+  }
+  .pics-01 {
+    width: 100rem;
+    max-width: 100%;
+  }
+  .pics-01 img {
+    width: 100%;
+  }
+  .pics-02 {
+    max-width: 100%;
+    width: 100rem;
+  }
+  .pics-02 img {
+    width: 100%;
+  }
+  .donation-area {
+    padding-bottom: 7rem;
+  }
+  .donation-flex {
+    display: flex;
+    gap: 2rem;
+    padding-left: 4rem;
+  }
+  .services-area {
+    padding-top: 5rem;
+  }
+  .donation-text {
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-bottom: 2.5rem;
+  }
+  .donation-text h2 {
+    font-size: 3.5rem;
+  }
+  .donation-text p {
+    font-size: 1.5rem;
+    padding-right: 10rem;
+  }
+  .numm h3 {
+    font-size: 2rem;
+  }
+  .numm p {
+    font-size: 1.5rem;
+  }
+  .flex-donation {
+    width: 35rem;
+  }
+  .flex-donation img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .little {
+    width: 4rem;
+  }
+  .little img {
+    width: 100%;
+  }
+  .little2 {
+    width: 5rem;
+  }
+  .little2 img {
+    width: 100%;
+  }
+  .little3 {
+    width: 5rem;
+  }
+  .little3 img {
+    width: 100%;
+  }
+  .numm {
+    padding: 1.2rem;
+  }
+  .donation-jj {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .donation-jj img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .donation-flex {
+    overflow-x: auto;
+  }
+  .donation-btn {
+    width: 33rem;
+    border-radius: 8px;
+  }
+  .donation-btn p {
+    font-size: 1.5rem;
+  }
+  .our-top {
+    width: 400rem;
+    max-width: 100%;
+  }
+  .contact-text {
+    padding-right: 1rem;
+  }
+  .our-top img {
+    width: 100%;
+  }
+  .services-area h2 {
+    font-size: 4.5rem;
+  }
+  .services-area p {
+    font-size: 2.5rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
+  .imagess {
+    max-width: 100%;
+    padding: 6rem 2rem;
+  }
+  .image-1 {
+    width: 160rem;
+    max-width: 100%;
+  }
+  .image-1 img {
+    width: 100%;
+  }
+  .footer-line {
+    padding: 3rem 0;
+    width: 360rem;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .footer-line img {
+    width: 100%;
+  }
+  .button--donate {
+    display: none;
+    /* top: -40rem;
+    left: 23rem;
+    cursor: pointer;
+    width: 30rem; */
+  }
+  .contactt {
+    padding: 1.5rem 2rem;
+  }
+  .contact-text h2 {
+    font-size: 4.5rem;
+  }
+  .contact-text p {
+    font-size: 2rem;
+  }
+  .contact-detail {
+    padding: 1rem 0.2rem;
+  }
+  .contact-detail h3 {
+    font-size: 2.7rem;
+  }
+  .contact-detail p {
+    font-size: 2rem;
+  }
+  .contact-donate h3 {
+    font-size: 2.7rem;
+  }
+  .contact-donate p {
+    font-size: 2rem;
+  }
+  .contact-formarea p {
+    font-size: 2rem;
+  }
+  .contact-formarea h3 {
+    font-size: 2rem;
+  }
+  .form--input {
+    width: 48rem;
+  }
+  .form--input2 {
+    width: 48rem;
+  }
+  .contact-send {
+    width: 48rem;
+  }
+
+  .form-grid1 {
+    display: flex;
+    gap: 1rem;
+  }
+  .form-donate {
+    width: 100%;
+
+    left: 12rem;
+  }
+
+  .form-pics {
+    width: 50rem;
+    height: 35rem;
+    max-width: 100%;
+  }
+  .form-pics img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .pay-form2 {
+    display: flex;
+    /* gap: 1rem; */
+    /* width: 100%; */
+    width: 100%;
+    background: #f9f9f9;
+    /* padding: 3rem 2rem; */
+  }
+  .form--input12 {
+    width: 12rem;
+    height: 2rem;
+  }
+  .pay-area {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pay-pal {
+    width: 25rem;
+    margin-top: 1rem;
+  }
+  .pay-pal img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .pay-form {
+    width: 24rem;
+    background-color: #b68540;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .donate-form h2 {
+    font-family: Yeseva One;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2f4a26;
+  }
+  .donate-form h3 {
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #626262;
+  }
+  .form-grid1 h3 {
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #626262;
+  }
+  .form--input3 {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid #c5c5c5;
+    text-indent: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #d0d0d0;
+
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .close-line {
+    display: flex;
+    width: 3rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  .close-line img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .last-area h3 {
+    font-size: 3.5rem;
+
+    line-height: 3.5rem;
+  }
+  .nav-top h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  header a {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    font-size: 1.3rem;
   }
 }
