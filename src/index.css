@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Yeseva+One&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   /* overflow-y: hidden; */
+  font-family: inter;
 }
 
 a {
