@@ -256,7 +256,9 @@ footer a {
 .donation-flex {
   display: flex;
   gap: 2rem;
-  padding-left: 4rem;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 4rem; */
 }
 .services-area {
   justify-content: center;
@@ -843,7 +845,9 @@ footer a {
   .donation-flex {
     display: flex;
     flex-direction: column;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
+    justify-content: center;
+    align-items: center;
   }
   .donation-text p {
     padding-right: 5rem;
