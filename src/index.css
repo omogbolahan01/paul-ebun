@@ -698,7 +698,7 @@ footer a {
     object-fit: contain;
   }
   .flex-donation {
-    width: 16.5rem;
+    /* width: 16.5rem; */
   }
   .donation-btn {
     width: 13.5rem;
